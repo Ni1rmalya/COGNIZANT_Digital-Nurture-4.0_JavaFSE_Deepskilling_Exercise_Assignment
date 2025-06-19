@@ -12,12 +12,12 @@ public class ECommerceSearchTest {
         String searchItem = "Laptop";
 
         // Linear Search
-        Product result1 = LinearSearch.linearSearch(products, searchItem);
-        System.out.println("Linear Search Result: " + result1);
+        Product result1 = LinearSearch.search(products, searchItem);
+        System.out.println("Linear Search: " + result1);
 
         // Binary Search
-        BinarySearch.sortProductsByName(products);
-        Product result2 = BinarySearch.binarySearch(products, searchItem);
-        System.out.println("Binary Search Result: " + result2);
+        BinarySearch.sort(products);
+        Product result2 = BinarySearch.search(products, searchItem);
+        System.out.println("Binary Search: " + result2);
     }
 }
