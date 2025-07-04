@@ -1,4 +1,4 @@
-# JPA vs Hibernate vs Spring Data JPA – Assignment
+# JPA vs Hibernate vs Spring Data JPA – Mandatory Hands-on Assignment
 
 This assignment provides a concise comparison between JPA, Hibernate, and Spring Data JPA. 
 It explains their roles in Java persistence, highlights key differences in features like implementation, boilerplate code, transaction management, and their 
