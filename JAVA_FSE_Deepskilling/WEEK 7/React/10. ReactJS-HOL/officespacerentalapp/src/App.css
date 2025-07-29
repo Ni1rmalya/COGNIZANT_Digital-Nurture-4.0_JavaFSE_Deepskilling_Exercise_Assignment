@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 280px; /* Adjust this to shift left */
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.textRed {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.textGreen {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.address {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
